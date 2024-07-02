@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #F4F1DE;
+  min-height: 100dvh;
+}
+
+@media (min-width: 768px) {
+  .home {
+    justify-content: flex-start;
+  }
+}
+
+.home .photocard {
+  width: calc(25% - 20px);
+  margin: 10px;
+}
